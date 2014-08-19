@@ -4,7 +4,7 @@
 ## Creates a special "matrix" object that can be cached
 
 makeCacheMatrix <- function(x = matrix()) {
-        m <- NULLcache
+        m <- NULL
         set <- function(y) {
                 x <<- y
                 m <<- NULL
